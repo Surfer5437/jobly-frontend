@@ -1,0 +1,37 @@
+
+.job_list {
+    background-color: whitesmoke;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+    list-style-type: none;
+    width: 50vw;
+    margin-bottom: 1rem;
+    border: solid black 4px;
+    border-radius: 1rem;
+}
+.job_list:hover{
+    box-shadow: 2px 2px 2px grey;
+}
+.job_salary {
+    transform: translateX(-2vw);
+}
+.job_equity {
+    transform: translateX(2vw);
+}
+.same{
+    display: inline-block;
+}
+.applyBtn{
+    padding: 14px 40px;
+    margin: 5px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+.applyBtn:hover {
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }

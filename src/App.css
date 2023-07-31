@@ -1,7 +1,13 @@
 .App {
   text-align: center;
-}
 
+}
+body {
+  background-image: url('pics/pic.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
